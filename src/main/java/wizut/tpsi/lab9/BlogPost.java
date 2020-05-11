@@ -9,9 +9,10 @@ public class BlogPost {
     Long id;
     String title;
     String content;
+    
     public BlogPost()
-    {
-    }
+    {}
+    
     public BlogPost(Long id, String title, String content) {
         this.id=id;
         this.title=title;
